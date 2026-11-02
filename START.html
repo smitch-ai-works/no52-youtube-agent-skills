@@ -1,0 +1,33 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>YouTube制作準備の始め方</title><style>body{margin:0;background:#fcfbf8;color:#23272e;font:19px/1.8 Arial,Meiryo,sans-serif}main{max-width:760px;margin:auto;padding:28px 20px}h1{font-size:30px;line-height:1.5}h2{font-size:24px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.8 Arial,Meiryo,sans-serif;background:#f3f0e9;padding:18px;border-radius:12px}button{background:#a72c35;color:white;border:0;border-radius:8px;padding:12px 18px;font-size:18px;font-weight:bold;cursor:pointer}.box{padding:20px;border:1px solid #dedbd3;border-radius:14px;margin:24px 0;background:white}a{color:#9d2e37}details{margin-top:12px}summary{cursor:pointer}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}</style><main><h1>YouTubeの準備を、一本ずつ。</h1><p>最初は「01で準備、02で台本」です。01と02を同時に送らず、準備結果を確認してから進みます。</p><ol><li>パソコンのCodexでYouTube用の作業フォルダを開きます。</li><li>下の01をコピーして送り、11種類の名前と保存先を確認します。</li><li>02のテーマ・届ける相手・使える時間を自分の条件へ直して送ります。</li><li>できた <strong>outputs/01_台本案.md</strong> を開き、話せる内容か確認します。</li></ol><p>スキル集そのものは無料公開されています。Codexの利用条件と上限は自分のアカウントで確認してください。</p><section class="box"><h2>01_作業フォルダへ設定</h2><button data-copy="p0">指示文をコピー</button><details><summary>指示文を開く</summary><pre data-copy-source id="p0">この作業フォルダで、次のYouTube用スキル集をCodexから使う準備をしてください。
+https://github.com/Jakeschincariol/youtube-agent-skill
+
+まず原典のREADMEと各SKILL.md、同梱Pythonの内容・ライセンス・必要条件を読み、既存の同名スキルがないか確認してください。
+原典はClaude用なので、この作業フォルダの .agents/skills/ 以下へ導入する案を示してください。全プロジェクト共通のスキルや設定は上書きしないでください。
+~/.claude/youtube/voice.md の参照は、この作業フォルダ内のyoutube/voice.mdを読むように調整してください。Pythonスクリプトは同梱の場所と対応させ、手元で動くものだけ確認してください。
+公開動画や自分の台本から声の特徴を整理するときは、渡した原稿だけを根拠にし、体験や数字を作らないでください。
+設定後、11種の名前・読み込み先・できた検証と未実施の検証を一覧にしてください。サンプルの台本案を1本作り、保存先も教えてください。
+YouTubeへの投稿、返信の送信、連携権限の付与、課金は行わないでください。</pre></details><p><a href="指示文/01_作業フォルダへ設定.txt">テキストファイルを開く</a></p></section><section class="box"><h2>02_企画と台本</h2><button data-copy="p1">指示文をコピー</button><details><summary>指示文を開く</summary><pre data-copy-source id="p1">yt-scriptの考え方でYouTubeの企画と台本案を作ってください。
+テーマ：仕事終わりにYouTubeの準備を進める方法
+届ける相手：ネタと台本の準備に時間がかかり、撮影まで進まない会社員
+見終わった人にしてほしいこと：次の一本の企画を一つ選ぶ
+使える時間：平日1日30分、週末に撮影
+実績・体験：渡した原稿に書いてあることだけ
+
+原典の21種類のフックから今回に合う型を選び、冒頭案を5本比較してください。数字や成功例は作らないでください。
+選んだ冒頭から、理由・具体的な作業・自分で判断する箇所・締めがつながる短い台本案を作ってください。
+撮影前に確認する点を最後に添えて、原稿をこの作業フォルダの outputs/01_台本案.md へ保存してください。保存したファイルを開く方法も教えてください。</pre></details><p><a href="指示文/02_企画と台本.txt">テキストファイルを開く</a></p></section><section class="box"><h2>03_タイトルとサムネ</h2><button data-copy="p2">指示文をコピー</button><details><summary>指示文を開く</summary><pre data-copy-source id="p2">作成した台本を基に、yt-packageの考え方でタイトルとサムネ文言を一組として考えてください。
+候補を3組。タイトルで題材を明確にし、サムネは同じ言葉の繰り返しを避けて、続きを見たくなる短い表現にしてください。
+根拠のない数字や成果の保証は入れないでください。各組の役割と、今回選ぶ一組の理由を説明してください。
+同梱の英語向け文字数・単語数の判定を、日本語の品質保証として扱わないでください。</pre></details><p><a href="指示文/03_タイトルとサムネ.txt">テキストファイルを開く</a></p></section><section class="box"><h2>04_コメントの返信案</h2><button data-copy="p3">指示文をコピー</button><details><summary>指示文を開く</summary><pre data-copy-source id="p3">yt-commentの考え方で、下記コメントへの返信案を作ってください。
+コメント：動画のネタを考えるところで止まっています。
+相手が次にできることを一つ示し、体験・成果・約束を創作せず、送信前に確認できる文案として保存してください。実際の送信はしないでください。</pre></details><p><a href="指示文/04_コメントの返信案.txt">テキストファイルを開く</a></p></section><section class="box"><h2>05_1週間の準備計画</h2><button data-copy="p4">指示文をコピー</button><details><summary>指示文を開く</summary><pre data-copy-source id="p4">yt-planの考え方で、次の1週間に無理なく進める投稿準備の計画案を作ってください。
+テーマ：YouTubeの企画と台本の準備をAIに手伝ってもらう方法
+作業時間：平日は30分、週末は撮影に2時間
+月〜日の各日に「作るもの・作業・確認すること」を割り当ててください。
+本数や実績を増やして見せず、公開日は本人が確認して決める前提にしてください。投稿予約は実行しないでください。</pre></details><p><a href="指示文/05_1週間の準備計画.txt">テキストファイルを開く</a></p></section><section class="box"><h2>06_伸びた企画を調べる</h2><button data-copy="p5">指示文をコピー</button><details><summary>指示文を開く</summary><pre data-copy-source id="p5">yt-viralの考え方で、公開されているYouTube動画から、今回作れる企画の候補を探してください。
+ジャンル：AIを使った仕事の効率化
+届ける相手：仕事終わりに自分の発信を始めたい会社員
+調査日を記録し、各動画のURL・タイトル・表示再生数・同じチャンネルの比較対象を残してください。
+各チャンネルで比較できる動画を4本以上確認し、単純な再生数だけでなく普段の投稿に比べて伸びた度合いを比べてください。比較対象が足りないものは除外してください。
+確認できない数値は作らず、参考動画の体験や成果を自分の実績に置き換えないでください。
+選んだ企画の構造を説明し、自分の相手・使える素材・実体験に合わせたタイトルと冒頭案へ作り直してください。</pre></details><p><a href="指示文/06_伸びた企画を調べる.txt">テキストファイルを開く</a></p></section><p>作例.jsonは見本です。本人の実績や、YouTubeへの投稿・返信の完了記録ではありません。</p><p>原典：<a href="https://github.com/Jakeschincariol/youtube-agent-skill">YouTube agent skill（MIT）</a> ／ <a href="https://learn.chatgpt.com/docs/build-skills">OpenAI公式のスキル説明</a></p></main><script>document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',async()=>{let p=document.getElementById(b.dataset.copy);try{await navigator.clipboard.writeText(p.textContent);b.textContent='コピーしました'}catch(e){p.closest('details').open=true;b.textContent='本文を選んでコピーしてください'}}));</script></html>
